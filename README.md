@@ -1,16 +1,41 @@
-# React + Vite
+# Home Nursing Care Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive website for a home nursing care service, with service listings, a provider profile, and booking through WhatsApp.
 
-Currently, two official plugins are available:
+> Built for a real client: a home nursing care provider.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Demo:** https://home-nursing-red.vercel.app
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Service listings:** clear overview of the nursing services offered
+- **Provider profile:** who the provider is and what they do
+- **WhatsApp booking:** visitors book directly through a pre-filled WhatsApp message
+- **Form validation:** Formik + Yup with clear error messages
+- **Responsive design:** works on mobile, tablet, and desktop
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+| Category | Tools |
+| --- | --- |
+| Framework | React 19, Vite |
+| Routing | React Router |
+| Styling | Tailwind CSS 4 |
+| Forms & Validation | Formik, Yup |
+| Icons | Font Awesome |
+| Language | JavaScript |
+
+## Getting Started
+
+```bash
+git clone https://github.com/Ammarkassem55/home-nursing.git
+cd home-nursing
+npm install
+npm run dev
+```
+
+## Author
+
+**Ammar Qassem**, Frontend Developer
+[GitHub](https://github.com/Ammarkassem55)
